@@ -1,0 +1,74 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">>
+
+
+        <Button
+            android:id="@+id/btnPlay"
+            android:layout_width="263dp"
+            android:layout_marginBottom="5sp"
+            android:layout_height="wrap_content"
+            android:text="Simulation"
+            android:onClick="Simulation"/>
+        <TextView
+            android:id="@+id/Heading1"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="Description"
+            android:layout_marginBottom="5sp"/>
+
+
+            <TextView
+                android:id="@+id/txDesHeap"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginBottom="5sp"
+                android:text="@string/LinearDes"
+                android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/Heading2"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginBottom="5sp"
+            android:text="Complexity"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txComplexBubble"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="@string/LinearCom"
+            android:layout_marginBottom="5sp"/>/>
+
+        <TextView
+            android:id="@+id/Heading3"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="Algorithm"
+            android:layout_marginBottom="5sp"/>
+
+        <ImageView
+            android:id="@+id/bubbles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/linear_search"
+            />
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,209 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="169dp"
+        android:orientation="vertical"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="24dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="bottom|center">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/index1"
+                    android:background="@color/colorPrimaryDark"/>
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/index2"
+                    android:background="@color/colorPrimaryDark"/>
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/index3"
+                    android:background="@color/colorPrimaryDark"/>
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/index4"
+                    android:background="@color/colorPrimaryDark"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="bottom|center">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/index5"
+                    android:background="@color/colorPrimaryDark"/>
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/index6"
+                    android:background="@color/colorPrimaryDark"/>
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/index7"
+                    android:background="@color/colorPrimaryDark"/>
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/index8"
+                    android:background="@color/colorPrimaryDark"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="bottom|center">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/index9"
+                    android:background="@color/colorPrimaryDark"/>
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/index10"
+                    android:background="@color/colorPrimaryDark"/>
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/index11"
+                    android:background="@color/colorPrimaryDark"/>
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/index12"
+                    android:background="@color/colorPrimaryDark"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+            <TextView
+                android:id="@+id/viuend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/colorPrimaryDark" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btPause"
+            android:layout_width="100dp"
+            android:layout_height="@dimen/boxH"
+            android:padding="@dimen/padding"
+            android:text="pause"
+            android:textSize="@dimen/texSiz" />
+        <Button
+            android:id="@+id/btReset"
+            android:layout_width="100dp"
+            android:layout_height="@dimen/boxH"
+            android:padding="@dimen/padding"
+            android:text="reset"
+            android:textSize="@dimen/texSiz" />
+    </LinearLayout>
+
+
+    <!--
+    <TextView
+        android:layout_height="@dimen/TitleH"
+        android:layout_width="match_parent"
+        android:text="bubbleSort(array, size)"
+        android:textColor="@color/colorB"
+        android:textSize="@dimen/TitleSize"
+        android:layout_margin="@dimen/margin"
+        android:padding="@dimen/padding"
+
+        />
+       -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:layout_marginTop="1000000dp"
+        android:paddingTop="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2000dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="@dimen/margin"
+            >
+
+            <TextView
+                android:id="@+id/line1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/boxH"
+                android:layout_margin="@dimen/margin"
+                android:padding="@dimen/padding"
+                android:paddingTop="15dp"
+                android:text="towerofHanoy(int n, char a, char b, char c)"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/texSiz" />
+            <TextView
+                android:id="@+id/line2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/boxH"
+                android:layout_margin="@dimen/margin"
+                android:padding="@dimen/padding"
+                android:text="if (n == 0)"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/texSiz" />
+            <TextView
+                android:id="@+id/line3"
+                android:layout_height="@dimen/boxH"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/texSiz"
+                android:layout_margin="@dimen/margin"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="return"
+                android:paddingLeft="25dp"/>
+            <TextView
+                android:id="@+id/line4"
+                android:layout_height="@dimen/boxH"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/texSiz"
+                android:layout_margin="@dimen/margin"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="toweofHanoy(n - 1, a, c, b)"
+                android:paddingLeft="0dp"/>
+            <TextView
+                android:id="@+id/line5"
+                android:layout_height="@dimen/boxH"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/texSiz"
+                android:layout_margin="@dimen/margin"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="towerofHanoy(n - 1, a, b, c)"
+                android:paddingLeft="0dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
